@@ -10,6 +10,7 @@
 		678D1AD9208E7B5200050B75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D1AD8208E7B5200050B75 /* AppDelegate.swift */; };
 		678D1ADB208E7B5200050B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 678D1ADA208E7B5200050B75 /* Assets.xcassets */; };
 		678D1ADE208E7B5200050B75 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 678D1ADC208E7B5200050B75 /* MainMenu.xib */; };
+		678D1AE7208EA02800050B75 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678D1AE6208EA02800050B75 /* StatusMenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		678D1ADD208E7B5200050B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		678D1ADF208E7B5200050B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		678D1AE0208E7B5200050B75 /* windowsnap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = windowsnap.entitlements; sourceTree = "<group>"; };
+		678D1AE6208EA02800050B75 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		678D1ACC208E7B5200050B75 = {
 			isa = PBXGroup;
 			children = (
+				678D1AE6208EA02800050B75 /* StatusMenuController.swift */,
 				678D1AD7208E7B5200050B75 /* windowsnap */,
 				678D1AD6208E7B5200050B75 /* Products */,
 			);
@@ -130,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678D1AE7208EA02800050B75 /* StatusMenuController.swift in Sources */,
 				678D1AD9208E7B5200050B75 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
